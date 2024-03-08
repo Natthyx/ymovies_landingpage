@@ -4,7 +4,7 @@ function Poster(props){
     return(
         <div className="movie-card">
         <label>{props.quality}</label>
-        <img src={props.img} alt="movie" />
+        <img className="movie-img" src={props.img} alt="movie" />
         <span>{props.title}</span>
         </div>
     )

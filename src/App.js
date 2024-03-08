@@ -7,7 +7,17 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <MovieList />
+      <MovieList 
+        catagory="Trending"
+        movie = "Movie"
+        series = "Tv Shows"
+      />
+      <MovieList 
+        catagory = "Latest Movies"
+      />
+      <MovieList 
+        catagory = "Coming Soon"
+      />
       <Footer />
     </div>
   );

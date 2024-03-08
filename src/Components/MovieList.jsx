@@ -2,13 +2,13 @@ import React from "react";
 import Poster from "./Poster";
 import movies from '../movies';
 
-function MovieList() {
+function MovieList(props) {
   return (
     <div className="movie-list">
       <div className="topic">
-        <button>Trending</button>
-        <h6>Movies</h6>
-        <h6>Tv Shows</h6>
+        <button>{props.catagory}</button>
+        <h6>{props.movie}</h6>
+        <h6>{props.series}</h6>
       </div>
       <div className="poster-grid">
         {movies.map((movie, index) => (
