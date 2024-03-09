@@ -5,6 +5,7 @@
 
 body{
   background:#111111;
+  font-family: 'Montserrat';
 }
 
 .header{
@@ -208,4 +209,122 @@ form.search button{
   font-size: 15px;
   margin-top: 5px;
   padding-left: 10px;
+}
+.swiper_container{
+  width: 80%;
+  margin: auto;
+  height: 50vh;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-contanier{
+  position: relative;
+
+}
+.top-section{
+  align-items: center;
+}
+.top-section img{
+  width: 100%;
+  height: 100%;
+  align-items: center;
+
+}
+
+
+.middle-section{
+  position: absolute;
+  padding: 5px;
+  padding-right: 0;
+  right: 0;
+  top: 0;
+  width: 355px;
+  background: rgba(19, 17, 17, 0.7);
+  height: 100%;
+  text-align: left;
+  color: white;
+
+}
+.middle-section h1{
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+  color: #08ac4b;
+  font-size: 20px;
+  font-family: "Teko", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.middle-section p{
+  width: 300px;
+  margin: auto;
+  font-size: 15px;
+  font-family: "Bebas Neue", sans-serif;
+  margin-bottom: 20px;
+}
+.film-detail{
+  background: rgba(63, 60, 60, 0.7);
+  width: 300px;
+  margin: auto;
+}
+.film-detail ul{
+  list-style: none;
+  line-height: 1.5rem;
+  padding-left: 15px;
+}
+
+.bottom-section{
+  background-color: #252525;
+  height: 40px;
+  padding: 20px;
+}
+.bottom-section ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
+
+}
+.bottom-section ul li{
+  display: inline-block;
+  width: 100px;
+  height: 20px;
+  padding: 5px;
+  margin: 0 10px;
+  text-align: center;
+  background-color: #08ac4b;
+  color: white;
+}
+.intro-section{
+  width: 80%;
+  margin: 100px auto;
+  color: white;
+  padding: 5px;
+  height: 100px;
+}
+.intro-section p{
+  font-size: 17px;
+  margin-bottom: 40px;
 }
