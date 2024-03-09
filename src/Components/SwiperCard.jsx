@@ -1,4 +1,5 @@
 import React from "react";
+import { FaPlay } from "react-icons/fa";
 
 
 function SwiperCard(props){
@@ -18,6 +19,12 @@ function SwiperCard(props){
                         <li>IMDB</li>
                     </ul>
                 </div>
+                <div className="watchBtn">
+                <button>
+                    <FaPlay/>  Watch Now
+                </button>
+                </div>
+                
                     
                 </div>
             </div>
