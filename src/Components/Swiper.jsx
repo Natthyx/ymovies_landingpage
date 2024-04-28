@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import SwiperCard from "./SwiperCard";
 import moviebanner from "../moviebanner";
+import SocialMedia from "./SocialMedia";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
         {moviebanner.map((banner) => (
           <SwiperSlide>
             <SwiperCard
+              id = {banner.id}
               title={banner.title}
               img={banner.image}
               desc={banner.desc}
@@ -18,14 +20,7 @@ export default function App() {
         ))}
       </Swiper>
 
-      <div className="bottom-section">
-        <ul>
-          <li>Facebook</li>
-          <li>Twitter</li>
-          <li>Whatsapp</li>
-          <li>Telegram</li>
-        </ul>
-      </div>
+      <SocialMedia />
       
     </div>
   );

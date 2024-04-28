@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 function SwiperCard(props){
@@ -13,16 +14,18 @@ function SwiperCard(props){
                 <p>{props.desc}</p>
                 <div className="film-detail">
                 <ul>
-                        <li>Genre</li>
-                        <li>Duration</li>
-                        <li>Released</li>
-                        <li>IMDB</li>
+                        <li>Genre: </li>
+                        <li>Duration: </li>
+                        <li>Released: </li>
+                        <li>IMDB: </li>
                     </ul>
                 </div>
                 <div className="watchBtn">
+                <Link to={`/stream/${props.id}`}>
                 <button>
                     <FaPlay/>  Watch Now
                 </button>
+                </Link>
                 </div>
                 
                     

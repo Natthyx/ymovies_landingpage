@@ -1,5 +1,6 @@
 const moviebanner = [
     {
+        id:1,
         image: "https://media.cinemacloud.co.uk/imageFilm/1725_1_2.jpg",
         title: "Dune: Part Two",
         desc : "Follow the mythic journey of Paul Atreides as he unites with Chani and the Fremen while on a path of revenge against the conspirators who destroyed his family..."

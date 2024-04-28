@@ -2,15 +2,13 @@ import React from "react";
 import Poster from "./Poster";
 import movies from '../movies';
 
-function MovieList(props) {
+function SimilarMovieList(props) {
   return (
-    <div className="movie-list">
+    <div className="similar-movie-list">
       <div className="topic">
-        <button>{props.catagory}</button>
-        <h6>{props.movie}</h6>
-        <h6>{props.series}</h6>
+        <button>You may also Like</button>
       </div>
-      <div className="poster-grid">
+      <div className="similar-poster-grid">
         {movies.map((movie, index) => (
           <Poster
             key={index}
@@ -25,4 +23,4 @@ function MovieList(props) {
   );
 }
 
-export default MovieList;
+export default SimilarMovieList;

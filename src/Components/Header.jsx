@@ -1,6 +1,8 @@
 import React from "react";
 import InputArea from "./InputArea";
 import BrandLogo from "./BrandLogo";
+import { Link } from "react-router-dom";
+
 
 
 function Header() {
@@ -10,11 +12,11 @@ function Header() {
         <BrandLogo />
         <div className="list">
           <ul>
-            <li>HOME</li>
+            <li><Link className="link" to='/'>HOME</Link></li>
             <li>GENRE</li>
             <li>COUNTRY</li>
-            <li>MOVIES</li>
-            <li>TV SHOWS</li>
+            <li><Link className="link" to='/movie/'>MOVIES</Link></li>
+            <li><Link className="link" to='/tvshow/'>TV-SHOW</Link></li>
             <li>TOP IMDB</li>
           </ul>
           <InputArea />
