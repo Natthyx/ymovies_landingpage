@@ -11,15 +11,21 @@ function Home(){
       <Swiper />
       <Intro />
       <MovieList 
-        catagory="Trending"
+        category="Trending"
+        all = "All"
         movie = "Movie"
         series = "Tv Shows"
       />
       <MovieList 
-        catagory = "Latest Movies"
+        category = "Latest Movies"
+        type = "movie"
       />
       <MovieList 
-        catagory = "Coming Soon"
+        category = "Latest TV Shows"
+        type = "series"
+      />
+      <MovieList 
+        category = "Coming Soon"
       />
       <Footer />
     </div>
