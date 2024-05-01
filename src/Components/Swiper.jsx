@@ -3,11 +3,9 @@ import "swiper/css";
 import SwiperCard from "./SwiperCard";
 import moviebanner from "../moviebanner";
 import SocialMedia from "./SocialMedia";
-import { Link } from "react-router-dom";
 
 export default function App() {
   return (
-    <Link to= "/stream/">
     <div className="swiper_container">
       <Swiper className="mySwiper">
         {moviebanner.map((banner) => (
@@ -25,6 +23,5 @@ export default function App() {
       <SocialMedia />
       
     </div>
-    </Link>
   );
 }

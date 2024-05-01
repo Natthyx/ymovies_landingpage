@@ -24,7 +24,8 @@ const movies = [
         quality: "TS",
         img : "https://img.ymovies.cc/resize/182x274/1b/2e/1b2e7f907e0eabd02ddca00c9a3ca2a4/1b2e7f907e0eabd02ddca00c9a3ca2a4.jpg",
         title : "Dune: Part Two",
-        genre : ["action","drama"]
+        genre : ["action","drama"],
+        type : "movie",
     },
     {
         id : 4,
@@ -84,44 +85,51 @@ const movies = [
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/0e/bd/0ebd980ae8d7bb27c5cfcec1ac2719c9/0ebd980ae8d7bb27c5cfcec1ac2719c9.jpg",
         title : "The Thundermans Return",
-        country : ["us","United Kingdom"]
+        country : ["us","United Kingdom"],
+        type : "movie",
     },
     {
         id : 11,
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/ff/08/ff086911161038d7d7e933705a15b4cb/ff086911161038d7d7e933705a15b4cb.jpg",
         title : "Code 8 Part II",
-        country : ["United State","United Kingdom"]
+        country : ["United State","United Kingdom"],
+        type : "movie",
     },
     {
         id : 12,
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/b2/a2/b2a2078a74e2e3b53693554ce3fbdd64/b2a2078a74e2e3b53693554ce3fbdd64.jpg",
-        title : "Barbie"
+        title : "Barbie",
+        type : "movie",
     },    
     {
         id : 13,
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/c9/cf/c9cf48c076459bb3993b781972667cb4/c9cf48c076459bb3993b781972667cb4.jpg",
-        title : "Mean Girls"
+        title : "Mean Girls",
+        type : "movie",
     },
     {
         id : 14,
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/c8/d6/c8d6c2c484c27d452667319847c50c2d/c8d6c2c484c27d452667319847c50c2d.jpg",
-        title : "The Beekeeper"
+        title : "The Beekeeper",
+        type : "movie",
     },
     {
         id : 15,
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/72/a2/72a241dad98940029994fbe42b5a85ae/72a241dad98940029994fbe42b5a85ae.jpg",
-        title : "Aquaman and the lost kingdom"
+        title : "Aquaman and the lost kingdom",
+        type : "movie",
     },
     {
         id:16,
         quality: "HD",
         img : "https://img.ymovies.cc/resize/182x274/02/f1/02f10c6ed2e6b83550d6642cd181359b/02f10c6ed2e6b83550d6642cd181359b.jpg",
-        title : "Megamind vs the Doom"
+        title : "Megamind vs the Doom",
+        type : "movie",
     },
 ]
 
